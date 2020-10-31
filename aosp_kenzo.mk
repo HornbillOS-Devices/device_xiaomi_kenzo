@@ -26,6 +26,8 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 IS_PHONE := true
 
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
@@ -51,7 +53,3 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_PACKAGES += \
-    AdvancedControls \
-    RemovePackages \
-    Recorder
